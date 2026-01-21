@@ -23,7 +23,7 @@ namespace DownloadScheduledExtractedFiles
         {Optional=true };
         //SwitchArgument traceFlag = new SwitchArgument('d', "dump", "Dump HTTP requests", false)
         //{Optional=true};
-        Uri dssUri = new Uri("https://selectapi.datascope.refinitiv.com/RestApi/v1/");
+        Uri dssUri = new Uri("https://selectapi.datascope.lseg.com/RestApi/v1/");
         ExtractionsContext extractionsContext = null;
 
 
@@ -258,3 +258,4 @@ namespace DownloadScheduledExtractedFiles
         }
     }
 }
+
